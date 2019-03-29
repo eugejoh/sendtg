@@ -8,6 +8,10 @@
 #' @return sends an image to your chat ID as an attachment
 #' @export
 #'
+#' @examples
+#' \dontrun{
+#' sendtg_img("my_awesome_meme.gif")
+#' }
 #'
 sendtg_img <- function(img = NULL, ...) {
 

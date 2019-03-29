@@ -9,6 +9,10 @@
 #' @return a message is sent to the chat ID contained in the .Renviron file
 #' @export
 #'
+#' @examples
+#' \dontrun{
+#' sendtg_msg("hello world")
+#' }
 #'
 sendtg_msg <- function(text = NULL, ...) {
 

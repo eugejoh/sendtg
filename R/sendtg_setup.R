@@ -1,3 +1,18 @@
+#' Getting Started with Telegram API in R Setup
+#'
+#' This function opens the .Renviron file and outlines the steps needed to take to insert the appropriate Telegram API token.
+#'
+#' @return opens .Renviron file and prints instructions
+#'
+#' @importFrom usethis "edit_r_environ"
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#' sendtg_setup()
+#' }
+#'
+
 sendtg_setup <- function() {
   message("1. Follow the instructions to setup a Telegram bot: https://core.telegram.org/bots#6-botfather\n")
 

@@ -6,6 +6,10 @@
 #' @return a message is sent to the chat ID contained in the .Renviron file with the file
 #' @export
 #'
+#' @examples
+#' \dontrun{
+#' send_file("important_output.csv")
+#' }
 #'
 sendtg_file <- function(fpath = NULL, ...) {
 
