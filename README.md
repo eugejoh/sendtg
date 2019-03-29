@@ -53,8 +53,8 @@ sendtg_check()
 
 ```
 
-## Sending Message
-Now that you're setup and ready to spam your(self) Telegram message using R, you can use one of three functions: `sendtg_msg`, `sendtg_img`, and `sendtg_file`. The names are fairly self descriptive - they send either a message, an image, or a file respectively. Just remember not to send sensitive information or files through this method!
+## Sending A Message
+Now that you're setup and ready to send yourself Telegram messages using R, you can use one of three functions: `sendtg_msg`, `sendtg_img`, and `sendtg_file`. The names are fairly self descriptive - they send either a message, an image, or a file respectively. Just remember not to send sensitive information or files through this method!
 
 ```r
 library(dplyr)
