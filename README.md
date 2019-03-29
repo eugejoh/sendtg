@@ -75,4 +75,4 @@ sendtg_file("some_cool_output.csv")
 ## Closing Thoughts
 This package is meant to make the Telegram API simple for R users to incorporate notifications into their R scripts. If you're interested in learning more about using R with the Telegram API, I strongly suggest checking out the [`telegram.bot` package](https://github.com/ebeneditos/telegram.bot).  
 
-Hopefully you can go on your coffee breaks or afternoon walks without wondering if your script finished running! :walking: :coffee:  
+Hopefully you can go on your coffee breaks or afternoon walks without wondering if your script finished running! :walking: :coffee:
