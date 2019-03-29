@@ -11,7 +11,7 @@ I suggest reading a bit on the [security](https://core.telegram.org/api#security
 
 To get started you can check out the very useful tutorials based on the `telegram.bot` package on [**getting started**](https://github.com/ebeneditos/telegram.bot/wiki/Introduction-to-the-API) and other features [here](https://github.com/ebeneditos/telegram.bot/wiki).  
 
-If you're curious more about the Telegram API and bots, you can read more on their [website]((https://core.telegram.org/bots).
+If you're curious more about the Telegram API and bots, you can read more on their [website](https://core.telegram.org/bots).
 
 ## Getting Started
 First you'll need to create a [Telegram account](https://web.telegram.org/). Then you'll need to talk to the `@BotFather` to create a new bot. You can find the steps here at the Telegram [website](https://core.telegram.org/bots#6-botfather). 
