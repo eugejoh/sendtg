@@ -4,7 +4,7 @@ Sending Telegram messages from R made easy!
 
 This package contains wrapper functions built on the [`telegram.bot`](https://github.com/ebeneditos/telegram.bot) package to easily send Telegram messages using R. The primary motivation for this package was to create a simple tool to send notifications when scripts finish running, similar to the [`beepr`](https://cran.r-project.org/package=beepr).  
 
-The primary motivation for this package was to generate notifications when "medium-long" R scripts would finish to optimize the user's time (i.e. coffee breaks :coffee: :running:).  
+The primary motivation for this package was to generate notifications when "medium-long" R scripts would finish to optimize the user's time i.e. coffee breaks :coffee: :running:.  
 
 ## Resources
 I suggest reading a bit on the [security](https://core.telegram.org/api#security) regarding Telegram and you can gauge whether this is relevant to you or not. I've run into issues where some IT firewalls will block R from sending Telegram messages.  
