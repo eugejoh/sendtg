@@ -27,7 +27,7 @@ sendtg_ani <- function(ani = NULL, ...) {
 
   if (telegram.bot::is.Bot(bot)) {
     bot$sendAnimation(chat_id = chatid,
-                  photo = ani, ...)
+                      animation = ani, ...)
   }
 
 }
