@@ -8,8 +8,8 @@ Description: This is package provides simple wrapper functions to send messages 
 License: GPL-3
 Depends: R (>= 3.5.0)
 Encoding: UTF-8
-Imports: 
-  usethis (>= 1.4.0),  
-  telegram.bot (>= 2.2.0)  
+Imports:
+  usethis (>= 1.4.0),
+  telegram.bot (>= 2.2.0)
 LazyData: true
 RoxygenNote: 6.1.0
