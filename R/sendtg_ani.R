@@ -2,20 +2,20 @@
 #'
 #' This function sends a message to your chat ID via the \code{telegram.bot} package.
 #'
-#' @param img a \code{character} string containing the \code{path} for your image. URLs can also be used
+#' @param ani a \code{character} string containing the \code{path} for your image. URLs can also be used
 #' @param ... other parameters for the \code{sendPhoto} function
 #'
-#' @return sends an image to your chat ID as an attachment
+#' @return sends an animation (gif or video) to your chat ID as an attachment
 #' @export
 #'
 #' @examples
 #' \dontrun{
-#' sendtg_img("my_awesome_pic.png")
+#' sendtg_ani("my_awesome_meme.png")
 #' }
 #'
-sendtg_img <- function(img = NULL, ...) {
+sendtg_ani <- function(ani = NULL, ...) {
 
-  if (!is.character(img)) {
+  if (!is.character(ani)) {
     stop("text parameter must be character string length 1")
   }
 
@@ -26,8 +26,8 @@ sendtg_img <- function(img = NULL, ...) {
   }
 
   if (telegram.bot::is.Bot(bot)) {
-    bot$sendPhoto(chat_id = chatid,
-                     photo = img, ...)
+    bot$sendAnimation(chat_id = chatid,
+                  photo = ani, ...)
   }
 
 }

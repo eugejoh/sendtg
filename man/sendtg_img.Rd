@@ -19,7 +19,7 @@ This function sends a message to your chat ID via the \code{telegram.bot} packag
 }
 \examples{
 \dontrun{
-sendtg_img("my_awesome_meme.gif")
+sendtg_img("my_awesome_pic.png")
 }
 
 }
