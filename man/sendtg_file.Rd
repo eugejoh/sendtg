@@ -4,12 +4,12 @@
 \alias{sendtg_file}
 \title{Send File via Telegram}
 \usage{
-sendtg_file(fpath = NULL, ...)
+sendtg_file(path = NULL, ...)
 }
 \arguments{
-\item{fpath}{a single \code{character} string containing the file fpath}
-
 \item{...}{other arguments fo the \code{sendDocument} function}
+
+\item{fpath}{a single \code{character} string containing the file fpath}
 }
 \value{
 a message is sent to the chat ID contained in the .Renviron file with the file

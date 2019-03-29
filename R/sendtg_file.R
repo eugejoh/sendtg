@@ -11,10 +11,10 @@
 #' send_file("important_output.csv")
 #' }
 #'
-sendtg_file <- function(fpath = NULL, ...) {
+sendtg_file <- function(path = NULL, ...) {
 
-  if (!is.character(fpath)) {
-    stop("text parameter must be single character string")
+  if (!is.character(path)) {
+    stop("text parameter must be character string length 1")
   }
 
   if (!("bot" %in% ls())) {
@@ -23,9 +23,9 @@ sendtg_file <- function(fpath = NULL, ...) {
     chatid <- updates[[1L]]$from_chat_id()
   }
 
-  if (all(class(bot) == c("Bot", "R6"))) {
+  if (telegram.bot::is.Bot(bot)) {
     bot$sendDocument(chat_id = chatid,
-                     document = fpath, ...)
+                     document = path, ...)
   }
 
 }

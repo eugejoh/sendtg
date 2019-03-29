@@ -16,7 +16,7 @@
 sendtg_img <- function(img = NULL, ...) {
 
   if (!is.character(img)) {
-    stop("text parameter must be single character string")
+    stop("text parameter must be character string length 1")
   }
 
   if (!("bot" %in% ls())) {
@@ -25,7 +25,7 @@ sendtg_img <- function(img = NULL, ...) {
     chatid <- updates[[1L]]$from_chat_id()
   }
 
-  if (all(class(bot) == c("Bot", "R6"))) {
+  if (telegram.bot::is.Bot(bot)) {
     bot$sendPhoto(chat_id = chatid,
                      photo = img, ...)
   }
