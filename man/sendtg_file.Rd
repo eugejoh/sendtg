@@ -7,9 +7,9 @@
 sendtg_file(path = NULL, ...)
 }
 \arguments{
-\item{...}{other arguments fo the \code{sendDocument} function}
+\item{path}{a single \code{character} string containing the file fpath}
 
-\item{fpath}{a single \code{character} string containing the file fpath}
+\item{...}{other arguments fo the \code{sendDocument} function}
 }
 \value{
 a message is sent to the chat ID contained in the .Renviron file with the file
