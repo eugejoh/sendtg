@@ -20,7 +20,11 @@ sendtg_setup <- function() {
 
   message("example: R_TELEGRAM_BOT_RTelegramBot = 110201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw\n")
 
+  message("\n3. Add the chat ID your .REnviron file using the following lines chat = your_chat_id\n")
+
+  message("example: chat = 123456789\n")
+
   usethis::edit_r_environ()
-  message("\n3. Restart your R session and run `sendtg_check`")
+  message("\n4. Restart your R session and run `sendtg_check`")
 
 }

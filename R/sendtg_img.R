@@ -21,8 +21,7 @@ sendtg_img <- function(img = NULL, ...) {
 
   if (!("bot" %in% ls())) {
     bot <- telegram.bot::Bot(token = telegram.bot::bot_token("RTelegramBot"))
-    updates <- bot$getUpdates()
-    chatid <- updates[[1L]]$from_chat_id()
+    chatid <- Sys.getenv("chat")
   }
 
   if (telegram.bot::is.Bot(bot)) {
