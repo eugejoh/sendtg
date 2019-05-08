@@ -8,6 +8,14 @@ The primary motivation for this package was to generate notifications when "medi
 
 ![](https://eugejoh.netlify.com/images/sendtg_ani.gif)
 
+## Installation
+To install the package, use:
+```r
+devtools::install_github("eugejoh/sendtg")
+
+library(sendtg)
+```
+
 ## Resources
 I suggest reading a bit on the [security](https://core.telegram.org/api#security) regarding Telegram and you can gauge whether this is relevant to you or not. I've run into issues where some IT firewalls will block R from sending Telegram messages.  
 
